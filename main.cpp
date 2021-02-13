@@ -14,7 +14,7 @@ int main() {
     int a;
     cin>>a;
     cout<<showpos<<abs(a)+sqrt(a)<<endl;
-cout.precision(1);
+    cout.precision(1);
     cout << "Exercise 3 ";
     bool m, n, l, k;
     cout << "enter k " << endl;
@@ -22,7 +22,7 @@ cout.precision(1);
     cout << "enter m " << endl;
     cout << "enter n " << endl;
     cin >> k >> l >> m >> n;
-    bool rez_3 = n && l || (m xor k);
+    bool rez_3 = n && l || (!m xor k);
     cout << boolalpha << rez_3 << endl;
     cout << "Exercise 4 ";
     short int b;
